@@ -1,9 +1,11 @@
+<!--
 ---
+
 layout: page
 title: "📝 Publications"
 permalink: /publications/
 ---
-<!-- Publications 区块 -->
+<!-- Publications 区块 
 <span id="publications"></span>
 ## Publications
 
@@ -14,3 +16,4 @@ permalink: /publications/
 - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
   arXiv preprint: [2505.16831](https://arxiv.org/abs/2505.16831) • [📄 PDF](https://arxiv.org/pdf/2505.16831.pdf)  
   **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
+-->
