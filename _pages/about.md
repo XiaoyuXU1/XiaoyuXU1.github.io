@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -26,9 +25,11 @@ I am currently a PhD candidate at The Hong Kong Polytechnic University, co-super
 - **Machine unlearning for large language models (LLMs):** efficient algorithms for selectively “forgetting” specific data in pre-trained LLMs—removing unwanted knowledge while preserving overall performance, without retraining from scratch.  
 - **Understanding of LLMs:** analyzing internal parameter–feature relationships to interpret how weight patterns shape model behavior.
 
-
+<span class="anchor" id="news"></span>
 # 🔥 News
 
+<!-- Publications 区块 -->
+<span class="anchor" id="publications"></span>
 # 📝 Publications 
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
   arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
