@@ -4,8 +4,7 @@ title: "📝 Publications"
 permalink: /publications/
 ---
 <!-- Publications 区块 -->
-<span class="anchor" id="publications"></span>
-
+<span id="publications"></span>
 ## Publications
 
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
