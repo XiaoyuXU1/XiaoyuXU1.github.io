@@ -17,7 +17,7 @@ redirect_from:
 <span class="anchor" id='about-me'></span>
 # 😊 About Me
 
-I am currently a PhD candidate at The Hong Kong Polytechnic University, co-supervised by [Prof. Haibo Hu](https://haibohu.org/) and [Dr. Minxin Du](https://duminxin.github.io/). Prior to this, I received my B.Eng. in Electronic and Communication Engineering from Sun Yat-sen University (SYSU) in 2024.  
+I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-supervised by [Prof. Haibo Hu](https://haibohu.org/) and [Dr. Minxin Du](https://duminxin.github.io/). Prior to this, I received my B.Eng. in Electronics and Communication Engineering from Sun Yat-sen University (SYSU) in 2024.  
 
 ### Research Interests
 
@@ -44,7 +44,7 @@ I am currently a PhD candidate at The Hong Kong Polytechnic University, co-super
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
 # 📖 Educations
-- *2020.09 – 2024.06*, Bachelor of Engineering in Electronic and Communication Engineering, Sun Yat-sen University (SYSU)  
+- *2020.09 – 2024.06*, Bachelor of Engineering in Electronics and Communication Engineering, Sun Yat-sen University (SYSU)  
 - *2024.09 – present*, PhD Candidate, The Hong Kong Polytechnic University 
 
 
