@@ -3,6 +3,8 @@ layout: page
 title: "📝 Publications"
 permalink: /publications/
 ---
+<!-- Publications 区块 -->
+<span class="anchor" id="publications"></span>
 
 ## Publications
 
