@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaoyu Xu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "The Hong Kong Polytechnic University"
+  bio              : "The Hong Kong Polytechnic University\ email: xiaoyu0910.xu@connect.polyu.hk"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=nhGUycIAAAAJ"
-  email            : "xiaoyu0910.xu@connect.polyu.hk"
+  email            :  #"xiaoyu0910.xu@connect.polyu.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/XiaoyuXU1"
+  github           : "XiaoyuXU1"
   google_plus      :
   keybase          :
   instagram        :
