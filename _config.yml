@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaoyu Xu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "The Hong Kong Polytechnic University\ email: xiaoyu0910.xu@connect.polyu.hk"
+  bio              : "The Hong Kong Polytechnic University \ email: xiaoyu0910.xu@connect.polyu.hk"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
