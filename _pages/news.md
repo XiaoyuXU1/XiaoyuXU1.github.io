@@ -3,7 +3,8 @@ layout: page
 title: "🔥 News"
 permalink: /news/
 ---
-
+<!-- Publications 区块 -->
+<span class="anchor" id="news"></span>
 ## Latest News
 <!--
 - **2025-05-23:** Feature release v0.1.2 of the Representational Analysis toolkit, now supporting FlashAttention speedups and a unified CLI/API.  
