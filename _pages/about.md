@@ -14,8 +14,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span id='about-me'></span>
-
+<span class="anchor" id='about-me'></span>
 # 😊 About Me
 
 I am currently a PhD candidate at The Hong Kong Polytechnic University, co-supervised by [Prof. Haibo Hu](https://haibohu.org/) and [Dr. Minxin Du](https://duminxin.github.io/). Prior to this, I received my B.Eng. in Electronic and Communication Engineering from Sun Yat-sen University (SYSU) in 2024.  
@@ -26,10 +25,10 @@ I am currently a PhD candidate at The Hong Kong Polytechnic University, co-super
 - **Understanding of LLMs:** analyzing internal parameter–feature relationships to interpret how weight patterns shape model behavior.
 
   
-<span id="news"></span>
+<span class="anchor" id="news"></span>
 # 🔥 News
 
-<span id="publications"></span>
+<span class="anchor" id="publications"></span>
 # 📝 Publications 
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
   arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
