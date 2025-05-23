@@ -3,7 +3,7 @@ layout: page
 title: "🔥 News"
 permalink: /news/
 ---
-<!-- Publications 区块 -->
+<span id="news"></span>
 <span class="anchor" id="news"></span>
 ## Latest News
 <!--
