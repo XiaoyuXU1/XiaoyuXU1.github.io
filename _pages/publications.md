@@ -2,12 +2,10 @@
 permalink: /publications
 title: "Publications"
 excerpt: ""
-redirect_from: 
-  - /publications/
-  - /publications.html
+
 ---
 
-<span class="anchor" id="publications"></span>
+<span id="publications"></span>
 
 # 📝 Publications 
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
