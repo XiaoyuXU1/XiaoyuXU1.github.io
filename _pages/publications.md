@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "📝 Publications"
+layout: page
+title: "Publications"
 permalink: /publications/
 ---
 
