@@ -3,7 +3,7 @@ layout: page
 title: "Publications"
 permalink: /publications/
 ---
-<span class="anchor" id="news"></span>
+<span class="anchor" id="publications"></span>
 
 # 📝 Publications 
 
