@@ -2,16 +2,13 @@
 main:
 
   - title: "Home"
-    data-href: "/"
-    data-target: "about-me"
+    url: "/#about-me"
 
   - title: "News"
-    data-href: "/news/"
-    data-target: "news"
-
+    url: "/news"
+    
   - title: "Publications"
-    data-href: "/publications/"
-    data-target: "publications"
+    url: "/publications
     
 
 
