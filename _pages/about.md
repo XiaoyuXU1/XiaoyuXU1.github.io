@@ -15,7 +15,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <!--<span class="anchor" id='about-me'></span>-->
-# 😊 About Me 
+# 😊 About Me {#about-me}
 
 I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-supervised by [Prof. Haibo Hu](https://haibohu.org/) and [Dr. Minxin Du](https://duminxin.github.io/). Prior to this, I received my B.Eng. in Electronics and Communication Engineering from Sun Yat-sen University (SYSU) in 2024.  
 
