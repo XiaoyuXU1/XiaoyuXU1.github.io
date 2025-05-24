@@ -1,4 +1,5 @@
 ---
+layout: page
 permalink: /
 title: ""
 excerpt: ""
@@ -26,7 +27,7 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 
   
 <!--<span class="anchor" id="news"></span>-->
-# 🔥 News{#news}
+# 🔥 News {#news}
 
 <!--<span class="anchor" id="publications"></span>-->
 # 📝 Publications {#publications}
