@@ -46,7 +46,7 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 -->
 # 📖 Educations
 - *2020.09 – 2024.06*, Bachelor of Engineering in Electronics and Communication Engineering, Sun Yat-sen University (SYSU)  
-- *2024.09 – present*, PhD Candidate, The Hong Kong Polytechnic University 
+- *2024.09 – present*, Ph.D. Candidate, The Hong Kong Polytechnic University 
 
 
 # 🎯 Interests
