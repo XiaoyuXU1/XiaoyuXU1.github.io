@@ -5,6 +5,6 @@ excerpt: ""
 
 ---
 
-<span class="anchor" id="news"></span>
+<span id="news"></span>
 
 # 🔥News
