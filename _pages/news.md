@@ -7,7 +7,6 @@ redirect_from:
   - /News.html
 ---
 
----
 <span class="anchor" id="news"></span>
 
 # 🔥News
