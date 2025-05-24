@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "News"
 permalink: /news/
+title: "News"
+
 ---
 <span class="anchor" id="news"></span>
 
