@@ -1,10 +1,11 @@
 # main links links
 main:
   - title: "Home"
-    url: "/#about-me"       # 只改变锚点，不会重载页面
-    
-  - title: "News"
-    url: "/news/"
-    
+    url: "/"
+
   - title: "Publications"
     url: "/publications/"
+
+  - title: "News"
+    url: "/news/"
+
