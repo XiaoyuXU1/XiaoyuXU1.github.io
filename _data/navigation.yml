@@ -1,14 +1,15 @@
 # main links links
 main:
-
   - title: "Home"
-    url: "/#about-me"
+    data-href: "/"
+    data-target: "about-me"
 
   - title: "News"
-    url: "/news"
-    
+    data-href: "/news/"
+    data-target: "news"
+
   - title: "Publications"
-    url: "/publications
-    
+    data-href: "/publications/"
+    data-target: "publications"
 
 
