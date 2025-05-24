@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "Publications"
 permalink: /publications/
+title: "Publications"
+
 ---
 <span class="anchor" id="publications"></span>
 
