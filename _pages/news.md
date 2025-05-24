@@ -3,8 +3,8 @@ permalink: /
 title: "News"
 excerpt: ""
 redirect_from: 
-  - /News/
-  - /News.html
+  - /news/
+  - /news.html
 ---
 
 <span class="anchor" id="news"></span>
