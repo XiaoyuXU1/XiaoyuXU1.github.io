@@ -1,8 +1,12 @@
 ---
 permalink: /
 title: "Publications"
-
+excerpt: ""
+redirect_from: 
+  - /publications/
+  - /publications.html
 ---
+
 <span class="anchor" id="publications"></span>
 
 # 📝 Publications 
