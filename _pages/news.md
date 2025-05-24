@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "🔥 News"
+layout: page
+title: "News"
 permalink: /news/
 ---
 
