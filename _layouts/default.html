@@ -30,4 +30,30 @@ layout: compress
     {% include scripts.html %}
 
   </body>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // 拦截所有带 data-href 属性的导航链接
+    document.querySelectorAll("a[data-href]").forEach(a => {
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        const url    = a.getAttribute("data-href");  // 比如 "/news/"
+        const target = a.getAttribute("data-target"); // 比如 "news"
+
+        // 改变地址栏（不刷新页面）
+        history.pushState(null, "", url);
+
+        // 滚动到对应锚点
+        const el = document.getElementById(target);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    // 支持浏览器「前进/后退」按钮
+    window.addEventListener("popstate", () => {
+      const path = location.pathname.replace(/^\/|\/$/g, "") || "about-me";
+      const el   = document.getElementById(path);
+      if (el) el.scrollIntoView();
+    });
+  });
+</script>
 
