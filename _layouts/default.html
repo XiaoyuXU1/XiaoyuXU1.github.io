@@ -6,26 +6,23 @@
   </head>
 
   <body>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <main id="pjax-container" role="main">
+    <div id="main" role="main">
       {% include sidebar.html %}
-
+    
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}
-          <meta itemprop="headline"
-                content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
-        {% endif %}
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
         </div>
       </article>
-    </main>
+    </div>
 
     {% include scripts.html %}
-    <script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.3.0/dist/turbo.min.js"></script>
+
   </body>
-</html>
