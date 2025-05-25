@@ -1,4 +1,36 @@
-<script src="assets/js/main.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("main");
+  if (!container) return;
 
-{% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}
+  document.querySelectorAll('a[href^="/news"], a[href^="/publications"]').forEach(a => {
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      const url = a.getAttribute("href");
+      fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const doc = new DOMParser().parseFromString(html, "text/html");
+          const newMain = doc.getElementById("main");
+          if (newMain) {
+            container.innerHTML = newMain.innerHTML;
+            history.pushState(null, "", url);
+          } else {
+            window.location = url;
+          }
+        });
+    });
+  });
+
+  window.addEventListener("popstate", () => {
+    const url = location.pathname;
+    fetch(url)
+      .then(res => res.text())
+      .then(html => {
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        const newMain = doc.getElementById("main");
+        if (newMain) container.innerHTML = newMain.innerHTML;
+      });
+  });
+});
+</script>
