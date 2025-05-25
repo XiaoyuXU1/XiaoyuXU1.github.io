@@ -3,9 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
---redirect_from: 
-  - /index/
-  - /index.html
+
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
