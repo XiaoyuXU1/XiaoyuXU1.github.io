@@ -15,7 +15,7 @@ author_profile: true
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='home'></span>
+<span id='index'></span>
 
 # 😊 About Me 
 
