@@ -1,11 +1,11 @@
 ---
-permalink: /
+permalink: /home
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+<!--redirect_from: 
   - /about/
-  - /about.html
+  - /about.html-->
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
