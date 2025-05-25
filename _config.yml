@@ -23,7 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Xiaoyu Xu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "📧 Email: xiaoyu0910.xu@connect.polyu.hk \n 👥 Group: [ASTAPLE Lab](https://www.astaple.com/)"
+  bio              : |
+    📧 Email: xiaoyu0910.xu@connect.polyu.hk
+    👥 Group: <a href="https://www.astaple.com/" target="_blank">ASTAPLE Lab</a>
 
   location         : "Hong Kong, China"
   employer         : 
