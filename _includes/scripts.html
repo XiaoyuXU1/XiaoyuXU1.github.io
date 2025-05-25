@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("main");
   if (!container) return;
 
-  document.querySelectorAll('a[href^="/news"], a[href^="/publications"]').forEach(a => {
+  document.querySelectorAll('a[href^="/home"], a[href^="/news"], a[href^="/publications"]').forEach(a => {
     a.addEventListener("click", e => {
       e.preventDefault();
       const url = a.getAttribute("href");
