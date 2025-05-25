@@ -2,6 +2,7 @@
 permalink: /news
 title: "News"
 excerpt: ""
+author_profile: flase
 
 ---
 
