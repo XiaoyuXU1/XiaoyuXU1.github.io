@@ -1,6 +1,6 @@
 ---
 permalink: /home
-title: ""
+title: "Home"
 excerpt: ""
 author_profile: flase
 
