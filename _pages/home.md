@@ -18,7 +18,9 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 
   
 <!--<span class="anchor" id="news"></span>-->
-# 🔥 News 
+# 🔥 News
+
+- 🗓️ **May 2025** — My personal homepage officially launched!
 
 <!--<span class="anchor" id="publications"></span>-->
 # 📝 Publications 
