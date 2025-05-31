@@ -8,6 +8,6 @@ author_profile: flase
 
 <span id="news"></span>
 
-# 🔥News
+# 🔥 News
 
 - 🗓️ **May 2025** — My personal homepage officially launched!
