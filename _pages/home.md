@@ -34,11 +34,7 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
   arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
   **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu
-<!--
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
--->
+  
 # 📖 Educations
 - *2020.09 – 2024.06*, Bachelor of Engineering in Electronics and Communication Engineering, Sun Yat-sen University (SYSU)  
 - *2024.09 – present*, Ph.D. Candidate, The Hong Kong Polytechnic University 
