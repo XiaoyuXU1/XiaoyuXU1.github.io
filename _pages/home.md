@@ -27,14 +27,13 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 
 <!--<span class="anchor" id="publications"></span>-->
 # 📝 Publications 
-- **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
-  arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
-  **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu
-
 - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
   arXiv preprint: [2505.16831](https://arxiv.org/abs/2505.16831) • [PDF](https://arxiv.org/pdf/2505.16831.pdf)  
   **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
-
+  
+- **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
+  arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
+  **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu
 <!--
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
