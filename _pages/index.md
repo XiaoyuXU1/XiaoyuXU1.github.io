@@ -27,26 +27,21 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
 - **Understanding of LLMs:** analyzing internal parameter–feature relationships to interpret how weight patterns shape model behavior.
 
   
-<!--<span class="anchor" id="news"></span>-->
 # 🔥 News
-
+- 🗓️ **June 2025** — Invited to review for [ACM Transactions on the Web (TWEB)](https://dl.acm.org/journal/tweb).
+- 🗓️ **June 2025** — Invited by [EMNLP](https://2025.emnlp.org/) to serve as a secondary (external) reviewer.
 - 🗓️ **May 2025** — My personal homepage officially launched!
 
-<!--<span class="anchor" id="publications"></span>-->
-# 📝 Publications 
-- **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
-  arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
-  **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu
 
+# 📝 Publications 
 - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
   arXiv preprint: [2505.16831](https://arxiv.org/abs/2505.16831) • [PDF](https://arxiv.org/pdf/2505.16831.pdf)  
   **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
-
-<!--
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
--->
+  
+- **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
+  arXiv preprint: [2505.04416](https://arxiv.org/abs/2505.04416) • [PDF](https://arxiv.org/pdf/2505.04416.pdf)  
+  **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu
+  
 # 📖 Educations
 - *2020.09 – 2024.06*, Bachelor of Engineering in Electronics and Communication Engineering, Sun Yat-sen University (SYSU)  
 - *2024.09 – present*, Ph.D. Candidate, The Hong Kong Polytechnic University 
