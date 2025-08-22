@@ -39,7 +39,7 @@ I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-sup
  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue
 
 - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
-  arXiv preprint: [2505.16831](https://arxiv.org/abs/2505.16831) • [PDF](https://arxiv.org/pdf/2505.16831.pdf)  
+  EMNLP 2025 (Main Conference): [2505.16831](https://arxiv.org/abs/2505.16831) • [PDF](https://arxiv.org/pdf/2505.16831.pdf)  
   **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
   
 - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
