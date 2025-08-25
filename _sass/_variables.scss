@@ -40,8 +40,8 @@ $type-scale-factor: 1.5; // 放大20%
 $type-smallscale-factor: 1.2; // 放大20%
 $type-size-1: 2.441em * $type-scale-factor;  
 $type-size-2: 1.953em * $type-scale-factor;  
-$type-size-3: 1.4em   * $type-scale-factor;  
-$type-size-4: 1.2em   * $type-scale-factor;  
+$type-size-3: 1.4em   * $type-smallscale-factor;  
+$type-size-4: 1.2em   * $type-smallscale-factor;  
 $type-size-5: 1em     * $type-smallscale-factor;  
 $type-size-6: 0.875em * $type-smallscale-factor;  
 $type-size-7: 0.6875em* $type-smallscale-factor;  
