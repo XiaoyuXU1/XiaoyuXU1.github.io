@@ -17,16 +17,27 @@ redirect_from:
 
 <span id='index'></span>
 
-# 😊 About Me 
+## 😊 About Me  
 
-I am currently a Ph.D. candidate at The Hong Kong Polytechnic University, co-supervised by [Prof. Haibo Hu](https://haibohu.org/) and [Dr. Minxin Du](https://duminxin.github.io/). Prior to this, I received my B.Eng. in Electronics and Communication Engineering from Sun Yat-sen University (SYSU) in 2024.  
+I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervised by [**Prof. Haibo Hu**](https://haibohu.org/) and [**Dr. Minxin Du**](https://duminxin.github.io/).  
+My research focuses on the **security, privacy, and reliability of large language models (LLMs)**.  
+Before starting my Ph.D., I received my **B.Eng. in Electronics and Communication Engineering** from **Sun Yat-sen University (SYSU)** in 2024.  
 
-### Research Interests
+---
 
-- **Machine unlearning for large language models (LLMs):** efficient algorithms for selectively “forgetting” specific data in pre-trained LLMs—removing unwanted knowledge while preserving overall performance, without retraining from scratch.  
-- **Understanding of LLMs:** analyzing internal parameter–feature relationships to interpret how weight patterns shape model behavior.
+### 🔬 Research Interests  
 
-  
+- **Machine Unlearning for Large Language Models (LLMs):**  
+  Designing efficient and robust algorithms that enable LLMs to selectively *forget* specific data or behaviors while preserving their overall capability.  
+  My research explores two key scenarios:  
+  - 🧩 **Single Unlearning:** Removing a specific set of data or knowledge from a pre-trained model in a one-time unlearning request, ensuring minimal performance degradation.  
+  - 🔁 **Continual Unlearning:** Extending unlearning to long sequences of deletion requests, addressing cumulative forgetting, stability, and reversibility issues over time.  
+
+- **LLM Security and Trustworthiness:**  
+  Investigating the robustness of LLMs against unlearning attacks like relearning and quantization perturbations to ensure safety and integrity in real-world applications.  
+
+---
+
 # 🔥 News
 
 - 🗓️ **August 2025** — Our paper is accepted to EMNLP 2025 (Main Conference)!
