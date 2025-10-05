@@ -8,12 +8,13 @@
     <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div>
+  <div class="profile_box__details">
+    <div class="author__content">
+      <h3 class="author__name">{{ author.name }}</h3>
+      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    </div>
 
-  <div class="author__urls-wrapper">
+    <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
@@ -215,4 +216,6 @@
       {% endif %}
     </div>
   </div>
+</div>
+
 </div>
