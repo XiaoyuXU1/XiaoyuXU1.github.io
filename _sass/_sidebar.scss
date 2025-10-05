@@ -253,6 +253,26 @@
   }
 }
 
+.author__inline-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+
+  .author__inline-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    > a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+  }
+}
+
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
