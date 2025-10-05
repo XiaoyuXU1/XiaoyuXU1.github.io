@@ -303,11 +303,10 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: flex-start;
-    column-gap: 0.55rem;
+    gap: 0.55rem;
     font-size: 1.08em;
     color: #1b2533;
     line-height: 1.38;
-    width: 100%;
 }
 
 .profile_box .author__urls li i {
@@ -315,7 +314,7 @@ body {
     grid-column: 1;
     color: #0d63a5;
     text-align: center;
-    margin-top: 0.15rem;
+    margin-top: 0.1rem;
 }
 
 .profile_box .author__urls li > a,
