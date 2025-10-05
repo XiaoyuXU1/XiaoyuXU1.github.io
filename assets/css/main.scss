@@ -386,3 +386,8 @@ body {
 #main > .sidebar .profile_box {
     width: 100%;
 }
+
+#main > .sidebar.sticky {
+    position: static !important;
+    top: auto !important;
+}
