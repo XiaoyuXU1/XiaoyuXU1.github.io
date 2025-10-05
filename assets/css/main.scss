@@ -88,13 +88,18 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
+}
+
+.anchor {
+    display: block;
+    position: relative;
 }
 
 .badge {
@@ -207,9 +212,9 @@ body {
 .profile_box__details {
     display: grid;
     width: 100%;
-    gap: 1.75rem 2.5rem;
+    gap: 1.5rem 2.25rem;
     align-items: start;
-    justify-items: stretch;
+    justify-items: start;
 }
 
 .profile_box .author__content,
@@ -220,9 +225,9 @@ body {
 .profile_box .author__content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.6rem;
-    text-align: inherit;
+    align-items: flex-start;
+    gap: 0.55rem;
+    text-align: left;
 }
 
 .profile_box .author__content .author__name {
@@ -233,10 +238,10 @@ body {
 }
 
 .profile_box .author__bio {
-    font-size: 1.05em;
+    font-size: 1.03em;
     color: #314463;
     margin: 0;
-    max-width: 36ch;
+    max-width: 42ch;
 }
 
 .profile_box .author__urls-wrapper {
@@ -248,32 +253,36 @@ body {
 }
 
 .profile_box .author__urls {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.65rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.7rem 1.5rem;
     padding: 0;
     margin: 0;
     text-align: left;
     width: 100%;
-    max-width: 420px;
     list-style: none;
 }
 
 .profile_box .author__urls li {
     display: flex;
     align-items: flex-start;
-    gap: 0.6rem;
+    gap: 0.65rem;
     font-size: 1.02em;
     color: #1b2533;
     line-height: 1.55;
 }
 
 .profile_box .author__urls li i {
-    flex: 0 0 1.2rem;
+    flex: 0 0 1.4rem;
     color: #0d63a5;
     text-align: center;
-    margin-top: 0.2rem;
+    margin-top: 0.15rem;
+}
+
+.profile_box .author__urls li > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
 }
 
 .profile_box .author__urls li.author__description {
@@ -317,7 +326,8 @@ body {
     }
 
     .profile_box .author__urls {
-        gap: 0.55rem;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 0.6rem 1.75rem;
     }
 }
 
@@ -342,5 +352,14 @@ body {
 }
 
 #main > .page .page__inner-wrap {
+    width: 100%;
+}
+
+#main > .sidebar {
+    width: min(960px, 100%);
+    margin: 0 auto;
+}
+
+#main > .sidebar .profile_box {
     width: 100%;
 }
