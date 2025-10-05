@@ -107,3 +107,226 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* -------------------------------------------------------------------------- */
+/* Custom theming for centered profile, typography, and color palette         */
+/* -------------------------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap");
+
+body {
+    background: radial-gradient(circle at top, rgba(237, 242, 252, 0.85), rgba(226, 233, 246, 0.95) 45%, #e3e9f5 100%);
+    color: #1b2533;
+    font-family: "Source Sans 3", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.page__content {
+    font-size: 1.08em;
+    line-height: 1.8;
+}
+
+.page__content h1 {
+    font-size: 2em;
+    color: #0c1f3f;
+    letter-spacing: 0.01em;
+}
+
+.page__content h2 {
+    font-size: 1.7em;
+    color: #12325f;
+}
+
+.page__content h3 {
+    font-size: 1.4em;
+    color: #1b3d73;
+}
+
+.page__content h4 {
+    font-size: 1.22em;
+    color: #1f4378;
+}
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+    background-color: #0c1f3f;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item {
+    font-size: 0.98em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #f4f8ff;
+    text-transform: uppercase;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .hidden-links a:hover,
+.masthead__menu-item:hover {
+    color: #7fc8ff;
+}
+
+.profile_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 3rem min(6vw, 3.75rem);
+    margin: clamp(1.5rem, 4vw, 3rem) auto;
+    width: min(100%, 980px);
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 28px;
+    box-shadow: 0 26px 48px rgba(12, 31, 63, 0.12);
+}
+
+.profile_box .author__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: clamp(180px, 24vw, 240px);
+}
+
+.profile_box .author__avatar img {
+    border-radius: 50%;
+    border: 3px solid rgba(12, 31, 63, 0.12);
+    box-shadow: 0 18px 32px rgba(12, 31, 63, 0.18);
+    width: clamp(180px, 24vw, 240px);
+    height: clamp(180px, 24vw, 240px);
+    object-fit: cover;
+}
+
+.profile_box__details {
+    display: grid;
+    width: 100%;
+    gap: 1.5rem 2.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.profile_box .author__content,
+.profile_box .author__urls-wrapper {
+    width: 100%;
+}
+
+.profile_box .author__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.profile_box .author__content .author__name {
+    font-size: 1.45em;
+    font-weight: 700;
+    color: #0c1f3f;
+    margin: 0;
+}
+
+.profile_box .author__bio {
+    font-size: 1.02em;
+    color: #314463;
+    margin: 0;
+}
+
+.profile_box .author__urls-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 440px;
+    margin-inline: auto;
+}
+
+.profile_box .author__urls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 380px;
+}
+
+.profile_box .author__urls li,
+.profile_box .author__urls a {
+    font-size: 0.97em;
+    color: #1b2533;
+}
+
+.profile_box .author__urls a:hover {
+    color: #0d63a5;
+}
+
+.profile_box .author__urls li i {
+    color: #0d63a5;
+}
+
+@include breakpoint($medium) {
+    .profile_box {
+        flex-direction: row;
+        align-items: stretch;
+        text-align: left;
+        gap: 3rem;
+        padding: 3.25rem clamp(3.25rem, 6vw, 4.5rem);
+    }
+
+    .profile_box__details {
+        grid-template-columns: minmax(0, 0.58fr) minmax(260px, 0.42fr);
+        align-items: center;
+        justify-items: stretch;
+    }
+
+    .profile_box .author__content {
+        justify-content: center;
+    }
+
+    .profile_box .author__content .author__name {
+        font-size: 1.55em;
+    }
+
+    .profile_box .author__bio {
+        font-size: 1.05em;
+    }
+
+    .profile_box .author__urls-wrapper {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .profile_box .author__urls {
+        gap: 0.45rem;
+    }
+}
+
+.page__content a {
+    color: #0d63a5;
+}
+
+.page__content a:hover {
+    color: #0a4e80;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#main > .page {
+    width: min(960px, 100%);
+    float: none;
+}
+
+#main > .page .page__inner-wrap {
+    width: 100%;
+}

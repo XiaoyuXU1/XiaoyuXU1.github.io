@@ -2,7 +2,7 @@
 permalink: /publications
 title: "Publications"
 excerpt: ""
-author_profile: flase
+author_profile: false
 
 ---
 
