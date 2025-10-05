@@ -181,9 +181,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    gap: 2rem;
+    gap: clamp(2rem, 5vw, 2.75rem);
     padding: clamp(2.5rem, 6vw, 3.75rem);
     margin: clamp(1.5rem, 4vw, 3rem) auto;
     width: min(100%, 960px);
@@ -192,20 +191,27 @@ body {
     box-shadow: 0 28px 52px rgba(12, 31, 63, 0.14);
 }
 
+.profile_box__identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.15rem;
+}
+
 .profile_box .author__avatar {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    width: clamp(180px, 24vw, 240px);
+    width: clamp(200px, 28vw, 260px);
 }
 
 .profile_box .author__avatar img {
     border-radius: 50%;
-    border: 3px solid rgba(12, 31, 63, 0.12);
-    box-shadow: 0 18px 32px rgba(12, 31, 63, 0.18);
-    width: clamp(190px, 22vw, 230px);
-    height: clamp(190px, 22vw, 230px);
+    border: 4px solid rgba(12, 31, 63, 0.1);
+    box-shadow: 0 22px 36px rgba(12, 31, 63, 0.18);
+    width: clamp(210px, 26vw, 260px);
+    height: clamp(210px, 26vw, 260px);
     object-fit: cover;
 }
 
@@ -231,10 +237,11 @@ body {
 }
 
 .profile_box .author__content .author__name {
-    font-size: clamp(1.9rem, 3vw, 2.35rem);
+    font-size: clamp(2rem, 3.2vw, 2.5rem);
     font-weight: 700;
     color: #0c1f3f;
     margin: 0;
+    letter-spacing: 0.01em;
 }
 
 .profile_box .author__bio {
@@ -244,12 +251,16 @@ body {
     max-width: 42ch;
 }
 
-.profile_box .author__urls-wrapper {
+.profile_box__details {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     width: 100%;
-    margin-inline: auto;
+}
+
+.profile_box .author__urls-wrapper {
+    width: min(100%, 620px);
 }
 
 .profile_box .author__urls {
@@ -285,20 +296,34 @@ body {
     gap: 0.6rem;
 }
 
-.profile_box .author__urls li.author__description {
-    color: #314463;
+.profile_box .author__urls li > a,
+.profile_box .author__urls li > span,
+.profile_box .author__urls li > div {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
-.profile_box .author__urls li.author__description span {
-    flex: 1 1 auto;
+.profile_box .author__urls li.author__description {
+    color: #314463;
+    font-weight: 500;
 }
 
 .profile_box .author__urls a {
     color: inherit;
+    font-weight: 500;
 }
 
 .profile_box .author__urls a:hover {
     color: #0d63a5;
+}
+
+.profile_box .author__urls_sm {
+    display: flex;
+    justify-content: center;
+    gap: 1.1rem;
+    font-size: 1.6em;
+    margin-top: 0.5rem;
 }
 
 @include breakpoint($medium) {
@@ -306,23 +331,27 @@ body {
         flex-direction: row;
         align-items: stretch;
         text-align: left;
-        gap: clamp(2.5rem, 4vw, 3.5rem);
-        padding: clamp(3rem, 6vw, 4rem) clamp(3rem, 6vw, 4.5rem);
+        gap: clamp(2.75rem, 5vw, 4rem);
+        padding: clamp(3rem, 6vw, 4rem) clamp(3rem, 6vw, 4.75rem);
     }
 
-    .profile_box__details {
-        grid-template-columns: minmax(0, 0.58fr) minmax(260px, 0.42fr);
-        justify-items: stretch;
+    .profile_box__identity {
+        align-items: center;
+        text-align: center;
+        gap: 1.25rem;
+        flex: 0 0 clamp(260px, 28vw, 320px);
     }
 
     .profile_box .author__content {
-        justify-content: center;
+        align-items: center;
+    }
+
+    .profile_box__details {
         align-items: flex-start;
     }
 
     .profile_box .author__urls-wrapper {
-        justify-content: flex-start;
-        margin-inline: 0;
+        width: 100%;
     }
 
     .profile_box .author__urls {
