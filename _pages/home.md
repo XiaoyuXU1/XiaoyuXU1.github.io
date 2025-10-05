@@ -2,7 +2,7 @@
 permalink: /home
 title: "Home"
 excerpt: ""
-author_profile: false
+
 
 ---
 <span id='home'></span>
