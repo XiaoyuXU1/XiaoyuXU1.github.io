@@ -17,7 +17,7 @@ redirect_from:
 
 <span id='index'></span>
 
-## 😊 About Me  
+# 😊 About Me  
 
 I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervised by [**Prof. Haibo Hu**](https://haibohu.org/) and [**Dr. Minxin Du**](https://duminxin.github.io/).  
 My research focuses on the **security, privacy, and reliability of large language models (LLMs)**.  
@@ -25,7 +25,7 @@ Before starting my Ph.D., I received my **B.Eng. in Electronics and Communicatio
 
 ---
 
-### 🔬 Research Interests  
+## 🔬 Research Interests  
 
 - **Machine Unlearning for Large Language Models (LLMs):**  
   Designing efficient and robust algorithms that enable LLMs to selectively *forget* specific data or behaviors while preserving their overall capability.  
