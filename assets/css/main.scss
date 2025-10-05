@@ -88,13 +88,18 @@
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
+}
+
+.anchor {
+    display: block;
+    position: relative;
 }
 
 .badge {
@@ -207,9 +212,9 @@ body {
 .profile_box__details {
     display: grid;
     width: 100%;
-    gap: 1.75rem 2.5rem;
+    gap: 1.5rem 2.25rem;
     align-items: start;
-    justify-items: stretch;
+    justify-items: start;
 }
 
 .profile_box .author__content,
@@ -220,9 +225,9 @@ body {
 .profile_box .author__content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.6rem;
-    text-align: inherit;
+    align-items: flex-start;
+    gap: 0.55rem;
+    text-align: left;
 }
 
 .profile_box .author__content .author__name {
@@ -233,10 +238,10 @@ body {
 }
 
 .profile_box .author__bio {
-    font-size: 1.05em;
+    font-size: 1.03em;
     color: #314463;
     margin: 0;
-    max-width: 36ch;
+    max-width: 42ch;
 }
 
 .profile_box .author__urls-wrapper {
