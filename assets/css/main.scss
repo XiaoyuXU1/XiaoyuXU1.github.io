@@ -245,18 +245,36 @@ body {
 }
 
 .profile_box .author__bio {
-    font-size: 1.08em;
+    font-size: 1.22em;
     color: #2b3b56;
     line-height: 1.65;
     max-width: 46ch;
+    font-weight: 500;
 }
 
 .profile_box .author__bio p {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
 }
 
 .profile_box .author__bio p + p {
-    margin-top: 0.75rem;
+    margin-top: 0.85rem;
+}
+
+.profile_box .author__bio p strong {
+    color: #0c1f3f;
+    font-weight: 700;
+}
+
+.profile_box .author__bio a {
+    color: #0d63a5;
+    font-weight: 600;
+}
+
+.profile_box .author__bio a:hover {
+    text-decoration: underline;
 }
 
 .profile_box .author__urls-wrapper {
@@ -385,4 +403,9 @@ body {
 
 #main > .sidebar .profile_box {
     width: 100%;
+}
+
+#main > .sidebar.sticky {
+    position: static !important;
+    top: auto !important;
 }

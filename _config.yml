@@ -24,8 +24,9 @@ author:
   name             : "Xiaoyu Xu \n (许晓宇)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : |
-    📧 Email: xiaoyu0910.xu@connect.polyu.hk
-    👥 Group: <a href="https://www.astaple.com/" target="_blank">ASTAPLE Lab</a>
+    <strong>Email:</strong> <a href="mailto:xiaoyu0910.xu@connect.polyu.hk">xiaoyu0910.xu@connect.polyu.hk</a>
+
+    <strong>Group:</strong> <a href="https://www.astaple.com/" target="_blank" rel="noopener">ASTAPLE Lab</a>
 
   location         : "Hong Kong, China"
   employer         : 
