@@ -344,3 +344,12 @@ body {
 #main > .page .page__inner-wrap {
     width: 100%;
 }
+
+#main > .sidebar {
+    width: min(960px, 100%);
+    margin: 0 auto;
+}
+
+#main > .sidebar .profile_box {
+    width: 100%;
+}
