@@ -24,36 +24,23 @@
       {% if site.description %}
         <li class="author__description"><i class="fa fa-fw fa-id-card" aria-hidden="true"></i><span>{{ site.description }}</span></li>
       {% endif %}
-      {% assign inline_count = 0 %}
-      {% capture inline_items %}
-        {% if author.location %}
-          {% assign inline_count = inline_count | plus: 1 %}
-          <span class="author__inline-item">
-            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
-            <span>{{ author.location }}</span>
-          </span>
-        {% endif %}
-        {% if author.github %}
-          {% assign inline_count = inline_count | plus: 1 %}
-          <span class="author__inline-item">
-            <a href="https://github.com/{{ author.github }}">
-              <i class="fab fa-fw fa-github" aria-hidden="true"></i>
-              Github
-            </a>
-          </span>
-        {% endif %}
-        {% if author.googlescholar %}
-          {% assign inline_count = inline_count | plus: 1 %}
-          <span class="author__inline-item">
-            <a href="{{ author.googlescholar }}">
-              <i class="fas fa-fw fa-graduation-cap"></i>
-              Google Scholar
-            </a>
-          </span>
-        {% endif %}
-      {% endcapture %}
-      {% if inline_count > 0 %}
-        <li class="author__inline-group">{{ inline_items | strip_newlines }}</li>
+      {% if author.location %}
+        <li>
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+          <span>{{ author.location }}</span>
+        </li>
+      {% endif %}
+      {% if author.github %}
+        <li>
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+          <a href="https://github.com/{{ author.github }}">Github</a>
+        </li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li>
+          <i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i>
+          <a href="{{ author.googlescholar }}">Google Scholar</a>
+        </li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><span>{{ author.employer }}</span></li>
