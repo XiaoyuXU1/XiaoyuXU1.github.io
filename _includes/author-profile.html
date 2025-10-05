@@ -24,8 +24,36 @@
       {% if site.description %}
         <li class="author__description"><i class="fa fa-fw fa-id-card" aria-hidden="true"></i><span>{{ site.description }}</span></li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><span>{{ author.location }}</span></li>
+      {% assign inline_count = 0 %}
+      {% capture inline_items %}
+        {% if author.location %}
+          {% assign inline_count = inline_count | plus: 1 %}
+          <span class="author__inline-item">
+            <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+            <span>{{ author.location }}</span>
+          </span>
+        {% endif %}
+        {% if author.github %}
+          {% assign inline_count = inline_count | plus: 1 %}
+          <span class="author__inline-item">
+            <a href="https://github.com/{{ author.github }}">
+              <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+              Github
+            </a>
+          </span>
+        {% endif %}
+        {% if author.googlescholar %}
+          {% assign inline_count = inline_count | plus: 1 %}
+          <span class="author__inline-item">
+            <a href="{{ author.googlescholar }}">
+              <i class="fas fa-fw fa-graduation-cap"></i>
+              Google Scholar
+            </a>
+          </span>
+        {% endif %}
+      {% endcapture %}
+      {% if inline_count > 0 %}
+        <li class="author__inline-group">{{ inline_items | strip_newlines }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i><span>{{ author.employer }}</span></li>
@@ -69,9 +97,6 @@
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
@@ -107,9 +132,6 @@
       {% endif %}
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine" aria-hidden="true"></i> Vine</a></li>
-      {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
