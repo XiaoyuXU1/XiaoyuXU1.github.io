@@ -152,7 +152,7 @@
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
-  margin-left: auto;
+  margin-left: 0;
   cursor: pointer;
 
   li:last-child {
@@ -249,26 +249,6 @@
 
     &:hover {
       text-decoration: underline;
-    }
-  }
-}
-
-.author__inline-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
-
-  .author__inline-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-
-    > a {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
     }
   }
 }
