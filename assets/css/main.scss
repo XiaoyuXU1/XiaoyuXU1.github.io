@@ -300,7 +300,8 @@ body {
 }
 
 .profile_box .author__urls li {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: flex-start;
     gap: 0.55rem;
     font-size: 1.08em;
@@ -309,24 +310,22 @@ body {
 }
 
 .profile_box .author__urls li i {
-    flex: 0 0 1.45rem;
+    grid-row: 1;
+    grid-column: 1;
     color: #0d63a5;
     text-align: center;
     margin-top: 0.1rem;
 }
 
-.profile_box .author__urls li > a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-}
-
 .profile_box .author__urls li > a,
 .profile_box .author__urls li > span,
 .profile_box .author__urls li > div {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
+    grid-column: 2;
+    grid-row: 1;
+    display: block;
+    min-width: 0;
+    text-align: left;
+    word-break: break-word;
 }
 
 .profile_box .author__urls li.author__description {
