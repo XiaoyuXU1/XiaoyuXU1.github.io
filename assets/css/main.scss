@@ -123,7 +123,8 @@ body {
 }
 
 .page__content {
-    font-size: 1em;
+    font-size: 1.08em;
+    line-height: 1.8;
 }
 
 .page__content h1 {
@@ -184,14 +185,6 @@ body {
     background: rgba(255, 255, 255, 0.96);
     border-radius: 28px;
     box-shadow: 0 26px 48px rgba(12, 31, 63, 0.12);
-    gap: 1.25rem;
-    padding: 2rem 2.25rem;
-    margin: 1.25rem auto 2rem;
-    width: 100%;
-    max-width: 960px;
-    background: rgba(255, 255, 255, 0.94);
-    border-radius: 24px;
-    box-shadow: 0 18px 34px rgba(12, 31, 63, 0.08);
 }
 
 .profile_box .author__avatar {
@@ -208,9 +201,6 @@ body {
     box-shadow: 0 18px 32px rgba(12, 31, 63, 0.18);
     width: clamp(180px, 24vw, 240px);
     height: clamp(180px, 24vw, 240px);
-    box-shadow: 0 12px 24px rgba(12, 31, 63, 0.15);
-    width: clamp(150px, 20vw, 210px);
-    height: clamp(150px, 20vw, 210px);
     object-fit: cover;
 }
 
@@ -220,11 +210,6 @@ body {
     gap: 1.5rem 2.5rem;
     align-items: center;
     justify-items: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.25rem;
-    width: 100%;
 }
 
 .profile_box .author__content,
@@ -240,11 +225,6 @@ body {
 
 .profile_box .author__content .author__name {
     font-size: 1.45em;
-    gap: 0.35rem;
-}
-
-.profile_box .author__content .author__name {
-    font-size: 1.38em;
     font-weight: 700;
     color: #0c1f3f;
     margin: 0;
@@ -252,7 +232,6 @@ body {
 
 .profile_box .author__bio {
     font-size: 1.02em;
-    font-size: 0.98em;
     color: #314463;
     margin: 0;
 }
@@ -275,19 +254,11 @@ body {
     text-align: left;
     width: 100%;
     max-width: 380px;
-.profile_box .author__urls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.35rem;
-    padding: 0;
-    margin: 0;
 }
 
 .profile_box .author__urls li,
 .profile_box .author__urls a {
     font-size: 0.97em;
-    font-size: 0.95em;
     color: #1b2533;
 }
 
@@ -333,46 +304,6 @@ body {
 
     .profile_box .author__urls {
         gap: 0.45rem;
-        align-items: center;
-        text-align: left;
-        gap: 2.5rem;
-        padding: 2.25rem 3rem;
-    }
-
-    .profile_box__details {
-        flex: 1 1 auto;
-        flex-direction: row;
-        align-items: stretch;
-        justify-content: space-between;
-        gap: 2rem;
-    }
-
-    .profile_box .author__content {
-        flex: 1 1 45%;
-        justify-content: center;
-        text-align: left;
-    }
-
-    .profile_box .author__content .author__name {
-        font-size: 1.45em;
-    }
-
-    .profile_box .author__bio {
-        font-size: 1em;
-    }
-
-    .profile_box .author__urls-wrapper {
-        flex: 1 1 40%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
-
-    .profile_box .author__urls {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-        gap: 0.4rem 1rem;
-        align-items: flex-start;
     }
 }
 
