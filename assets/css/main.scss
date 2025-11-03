@@ -157,7 +157,7 @@ body {
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav {
-    background-color: #0c1f3f;
+    background-color: #000000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -227,7 +227,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: clamp(0.45rem, 1.1vw, 0.9rem);
-    width: 100%;
+    width: 90%;
 }
 
 .profile_box .author__content,
