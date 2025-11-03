@@ -59,7 +59,7 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #000000;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -158,7 +158,7 @@ $border-color: #000000;       // 边框色黑色
 $text-color: #2C3E50;
 $primary-color: #000000;   // 群青偏灰（低饱和度，更柔和）
 $info-color: #000000;      // 浅湖蓝（清爽强调色）
-$link-color: $primary-color;
+$link-color: #000000;
 $link-color-hover: mix(#000, $link-color, 15%);       // 悬停时加深
 $link-color-visited: mix(#fff, $link-color, 25%);     // 已访问时稍淡
 $masthead-link-color: $primary-color;
