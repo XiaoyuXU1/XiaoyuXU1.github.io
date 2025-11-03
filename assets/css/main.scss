@@ -120,38 +120,39 @@ h1:before, .anchor:before {
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap");
 
 body {
-    background: #fff; /* 纯白色背景 */
+    background: #fff;
     color: #1b2533;
     font-family: Arial, "Helvetica Neue", Helvetica, "Liberation Sans", "Noto Sans", sans-serif;
-    font-size: 16px;
+    font-size: 14px;      /* 原来是16px，改小为14px */
     line-height: 1.7;
 }
 
 .page__content {
-    font-size: 1.12em;
+    font-size: 1em;       /* 原来是1.12em，改为1em */
     line-height: 1.85;
 }
 
 .page__content h1 {
-    font-size: 2em;
+    font-size: 1.5em;     /* 原来是2em，改小为1.5em */
     color: #0c1f3f;
     letter-spacing: 0.01em;
 }
 
 .page__content h2 {
-    font-size: 1.7em;
+    font-size: 1.25em;    /* 原来是1.7em，改小为1.25em */
     color: #12325f;
 }
 
 .page__content h3 {
-    font-size: 1.4em;
+    font-size: 1.1em;     /* 原来是1.4em，改小为1.1em */
     color: #1b3d73;
 }
 
 .page__content h4 {
-    font-size: 1.22em;
+    font-size: 1em;       /* 原来是1.22em，改小为1em */
     color: #1f4378;
 }
+
 
 .masthead,
 .masthead__inner-wrap,
