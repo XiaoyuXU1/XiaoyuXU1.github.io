@@ -30,8 +30,8 @@ Before starting my Ph.D., I received my **B.Eng. in Electronics and Communicatio
 - **Machine Unlearning for Large Language Models (LLMs):**  
   Designing efficient and robust algorithms that enable LLMs to selectively *forget* specific data while preserving their overall capability.  
   My research explores two key scenarios:  
-  - **Single Unlearning:** Removing a specific set of data or knowledge from a pre-trained model in a one-time unlearning request.  
-  - **Continual Unlearning:** Extending unlearning to long sequences of deletion requests, addressing catastrophic forgetting.  
+  **Single Unlearning:** Removing a specific set of data or knowledge from a pre-trained model in a one-time unlearning request.  
+  **Continual Unlearning:** Extending unlearning to long sequences of deletion requests, addressing catastrophic forgetting.  
 
 - **LLM Security and Trustworthiness:**  
   Investigating the robustness of LLMs against unlearning attacks like relearning and quantization perturbations to ensure safety and integrity in real-world applications.  
@@ -48,7 +48,7 @@ Before starting my Ph.D., I received my **B.Eng. in Electronics and Communicatio
 - **May 2025** — My personal homepage officially launched!
 
 <!--<span class="anchor" id="publications"></span>-->
-# 📝 Publications 
+# Publications 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
   arXiv preprint: [2507.00432](https://arxiv.org/abs/2507.00432) • [PDF](https://arxiv.org/pdf/2507.00432)  
  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue
