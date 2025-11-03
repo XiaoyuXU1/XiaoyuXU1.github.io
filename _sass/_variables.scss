@@ -12,28 +12,22 @@ $doc-font-size              : 120;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
-/* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
+$serif: "Arial", "Helvetica Neue", Helvetica, "Liberation Sans", "Noto Sans", "Source Sans Pro", sans-serif;
+$sans-serif: "Arial", "Helvetica Neue", Helvetica, "Liberation Sans", "Noto Sans", "Source Sans Pro", sans-serif;
+$monospace: "Fira Mono", "Consolas", "Liberation Mono", "Courier New", monospace;
 
-// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$sans-serif-narrow: $sans-serif;
+$helvetica: $sans-serif;
 
-/* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$georgia: $sans-serif;
+$times: $sans-serif;
+$bodoni: $sans-serif;
+$calisto: $sans-serif;
+$garamond: $sans-serif;
 
-/* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
-
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family: $sans-serif;
+$header-font-family: $sans-serif;
+$caption-font-family: $sans-serif;
 
 /* type scale */
 $type-scale-factor: 1; // 放大20%
@@ -158,10 +152,10 @@ $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
 /* === Custom theme overrides === */
-$body-color: #F5F8FC;
-$background-color: #F5F8FC;
+$background-color: #FFFFFF;   // 背景色白色
+$body-color: #FFFFFF;         // 主体背景色白色
+$border-color: #000000;       // 边框色黑色
 $text-color: #2C3E50;
-$border-color: #D0D8E8;
 $primary-color: #1E4E79;   // 群青偏灰（低饱和度，更柔和）
 $info-color: #5FA8D3;      // 浅湖蓝（清爽强调色）
 $link-color: $primary-color;
