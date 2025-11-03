@@ -17,10 +17,10 @@ Before starting my Ph.D., I received my **B.Eng. in Electronics and Communicatio
 ## Research Interests  
 
 - **Machine Unlearning for Large Language Models (LLMs):**  
-  Designing efficient and robust algorithms that enable LLMs to selectively *forget* specific data or behaviors while preserving their overall capability.  
+  Designing efficient and robust algorithms that enable LLMs to selectively *forget* specific data while preserving their overall capability.  
   My research explores two key scenarios:  
-  - **Single Unlearning:** Removing a specific set of data or knowledge from a pre-trained model in a one-time unlearning request, ensuring minimal performance degradation.  
-  - **Continual Unlearning:** Extending unlearning to long sequences of deletion requests, addressing cumulative forgetting, stability, and reversibility issues over time.  
+  - **Single Unlearning:** Removing a specific set of data or knowledge from a pre-trained model in a one-time unlearning request.  
+  - **Continual Unlearning:** Extending unlearning to long sequences of deletion requests, addressing catastrophic forgetting.  
 
 - **LLM Security and Trustworthiness:**  
   Investigating the robustness of LLMs against unlearning attacks like relearning and quantization perturbations to ensure safety and integrity in real-world applications.  
