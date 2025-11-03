@@ -8,7 +8,7 @@ author_profile: false
 
 <span id="publications"></span>
 
-# 📝 Publications 
+# Publications 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
   arXiv preprint: [2507.00432](https://arxiv.org/abs/2507.00432) • [PDF](https://arxiv.org/pdf/2507.00432)  
  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue
