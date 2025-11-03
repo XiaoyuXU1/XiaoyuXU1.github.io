@@ -37,7 +37,7 @@ Before starting my Ph.D., I received my **B.Eng. in Electronics and Communicatio
 - **May 2025** — My personal homepage officially launched!
 
 <!--<span class="anchor" id="publications"></span>-->
-# 📝 Publications 
+# Publications 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
   arXiv preprint: [2507.00432](https://arxiv.org/abs/2507.00432) • [PDF](https://arxiv.org/pdf/2507.00432)  
  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, Graham Neubig, Xiang Yue
