@@ -120,9 +120,9 @@ h1:before, .anchor:before {
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap");
 
 body {
-    background: radial-gradient(circle at top, rgba(237, 242, 252, 0.85), rgba(226, 233, 246, 0.95) 45%, #e3e9f5 100%);
+    background: #fff; /* 纯白色背景 */
     color: #1b2533;
-    font-family: "Source Sans 3", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, "Liberation Sans", "Noto Sans", sans-serif;
     font-size: 16px;
     line-height: 1.7;
 }
