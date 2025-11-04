@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiaoyu Xu's Homepage"
-description              : "Ph.D. student at The Hong Kong Polytechnic University. "
+description              :
 repository               : "XiaoyuXU1/XiaoyuXU1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,6 +24,8 @@ author:
   name             : "Xiaoyu Xu \n (许晓宇)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : |
+    <strong>"Ph.D. student at The Hong Kong Polytechnic University
+    
     <strong>Email:</strong> <a href="mailto:xiaoyu0910.xu@connect.polyu.hk">xiaoyu0910.xu@connect.polyu.hk</a>
 
     <strong>Group:</strong> <a href="https://www.astaple.com/" target="_blank" rel="noopener">ASTAPLE Lab</a>
