@@ -4,10 +4,9 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
+#description              :
 # Site Settings
 title                    : "Xiaoyu Xu's Homepage"
-description              :
 repository               : "XiaoyuXU1/XiaoyuXU1.github.io"
 google_scholar_stats_use_cdn : true
 
