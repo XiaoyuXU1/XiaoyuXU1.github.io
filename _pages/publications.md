@@ -13,7 +13,8 @@ author_profile: false
 ## First Author
 
  - **From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning**  
- **Xiaoyu Xu**, Minxin Du, Zitong Li, Zi Liang, Zhibiao Guo, Shiyu Zhang, Peizhao Hu, Qingqing Ye, Haibo Hu  (arXiv: [2601.04278](https://arxiv.org/abs/2601.04278))
+ **Xiaoyu Xu**, Minxin Du, Zitong Li, Zi Liang, Zhibiao Guo, Shiyu Zhang, Peizhao Hu, Qingqing Ye, Haibo Hu
+   (arXiv: [2601.04278](https://arxiv.org/abs/2601.04278))
 
  - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
  **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
@@ -26,4 +27,5 @@ author_profile: false
 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
   Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran,
+  
   Graham Neubig, Xiang Yue  (arXiv: [2507.00432](https://arxiv.org/abs/2507.00432))
