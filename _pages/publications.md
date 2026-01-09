@@ -17,7 +17,7 @@ author_profile: false
  ([arXiv](https://arxiv.org/abs/2601.04278))
 
  - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
- **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
+ **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Huadi Zheng, Peizhao Hu, Minxin Du, Haibo Hu 
  ([arXiv](https://arxiv.org/abs/2505.16831))
 
  - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
