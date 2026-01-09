@@ -10,7 +10,6 @@ excerpt: ""
 
 I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervised by [**Prof. Haibo Hu**](https://haibohu.org/) and [**Dr. Minxin Du**](https://duminxin.github.io/). My research focuses on the **security, privacy, and reliability of large language models (LLMs)**. Before starting my Ph.D., I received my **B.Eng. in Electronics and Communication Engineering** from **Sun Yat-sen University (SYSU)** in 2024.  
 
----
 
 ## Research Interests  
 
