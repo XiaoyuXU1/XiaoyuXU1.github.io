@@ -38,11 +38,11 @@ I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervise
 
  - **From Domains to Instances: Dual-Granularity Data Synthesis for LLM Unlearning**  
  **Xiaoyu Xu**, Minxin Du, Zitong Li, Zi Liang, Zhibiao Guo, Shiyu Zhang, Peizhao Hu, Qingqing Ye, Haibo Hu
- [arXiv](https://arxiv.org/abs/2601.04278)
+ ([arXiv](https://arxiv.org/abs/2601.04278))
 
  - **Unlearning Isn't Deletion: Investigating Reversibility of Machine Unlearning in LLMs**  
  **Xiaoyu Xu**, Xiang Yue, Yang Liu, Qingqing Ye, Haibo Hu, Minxin Du
- [arXiv](https://arxiv.org/abs/2505.16831)
+ ([arXiv](https://arxiv.org/abs/2505.16831))
 
  - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
  **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu  (EMNLP 2025 (Main Conference) • [arXiv](https://arxiv.org/abs/2505.04416))
@@ -51,7 +51,7 @@ I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervise
 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
   Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, 
-  Graham Neubig, Xiang Yue  [arXiv](https://arxiv.org/abs/2507.00432)
+  Graham Neubig, Xiang Yue  ([arXiv](https://arxiv.org/abs/2507.00432))
   
 # Educations
 - *2020.09 – 2024.06*, Bachelor of Engineering in Electronics and Communication Engineering, Sun Yat-sen University (SYSU)  
