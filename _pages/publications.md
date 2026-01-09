@@ -26,6 +26,5 @@ author_profile: false
 ## Coauthor
 
 - **Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning**  
-  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran,
-  
+  Maggie Huan, Yuetai Li, Tuney Zheng, **Xiaoyu Xu**, Seungone Kim, Minxin Du, Radha Poovendran, 
   Graham Neubig, Xiang Yue  (arXiv: [2507.00432](https://arxiv.org/abs/2507.00432))
