@@ -61,7 +61,7 @@ I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervise
  ([arXiv](https://arxiv.org/abs/2505.16831))
 
  - **OBLIVIATE: Robust and Practical Machine Unlearning for Large Language Models**  
- **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu  (EMNLP 2025 (Main Conference) • [arXiv](https://arxiv.org/abs/2505.04416))
+ **Xiaoyu Xu**, Minxin Du, Qingqing Ye, Haibo Hu  [EMNLP 2025 (Main Conference)](https://aclanthology.org/2025.emnlp-main.183/))
 
 ## Coauthor
 
