@@ -35,6 +35,7 @@ I am a Ph.D. candidate at **The Hong Kong Polytechnic University**, co-supervise
 # Publications
 
 ## First Author
+
  - **FIT: Defying Catastrophic Forgetting in Continual LLM Unlearning**  
  **Xiaoyu Xu**, Minxin Du, Kun Fang, Zi Liang, Yaxin Xiao, Zhicong Huang, Cheng Hong, Qingqing Ye, Haibo Hu
  ([arXiv](https://arxiv.org/abs/2601.21682))
